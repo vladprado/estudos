@@ -1,0 +1,5 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/vladprado/estudos/cc50/cLang/hello'
+relocations:     []
+...
