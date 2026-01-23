@@ -10,6 +10,15 @@
     --preto-texto: #101828;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .cabecalho__navegacao {
     display: flex;
     align-items: center;
@@ -73,7 +82,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 4em 2em;
+    margin: 6em 2em;
 }
 
 .sobre__nos__titulo {
@@ -100,4 +109,36 @@
     font-size: 20px;
     font-weight: 400;
     width: 50vw;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--font-family);
+    margin: 6em auto;
+    width: 80vw;
+}
+
+.stats__item {
+    padding: 0 0.2em 0 3em;
+}
+
+.stats__number {
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--cor-destaque);
+    margin: 0 1em 0.2em 0;
+}
+
+.stats__title {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto-texto);
+    margin: 0 1em 0.5em 0;
+}
+
+.stats_descricao {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-nav);
 }
