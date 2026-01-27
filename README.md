@@ -26,7 +26,7 @@ The main goal of this repository is to:
 
 ## 📅 Current Focus
 Right now, I’m studying:
-- DSA for Technical Interviews
+- HTML and CSS + Responsive + Accesibility - Main goal to be a full stack developer (BE heavy)
 
 ---
 
